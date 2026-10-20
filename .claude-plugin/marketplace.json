@@ -1,0 +1,33 @@
+{
+  "name": "pharma-skills",
+  "owner": {
+    "name": "R Consortium Submissions Working Group Pilot 7"
+  },
+  "metadata": {
+    "description": "A collection of agent skills for pharmaceutical R&D: ADaM/SDTM derivation, clinical trial design and simulation, and statistical review.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pharma-skills",
+      "description": "Agent skills for pharmaceutical R&D: admiral ADaM derivations, SDTM mapping, trial design and simulation, KM digitizing, rounding checks, and statistical review",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./admiral",
+        "./admiral/admiral-adae",
+        "./admiral/admiral-adrs",
+        "./admiral/admiral-adsl",
+        "./admiral/admiral-adtte",
+        "./admiral/admiral-bds",
+        "./clinical-trial-ipd-sim",
+        "./clinical-trial-simulation",
+        "./group-sequential-design",
+        "./km-digitizer",
+        "./rounding",
+        "./sdtm-oak",
+        "./statistical-reviewer"
+      ]
+    }
+  ]
+}
